@@ -9,19 +9,30 @@ const apiTodos = new Todos()
 const app = createApp({
     data() {
         return {
-            todo: ""
+            todos: [],
+            form: {
+                text: '',
+                done: false
+            }
         }
     },
 
     created() {
-
+        this.fetchTodos()
     },
 
     methods: {
-        qualquerCoisa() {
+        async fetchTodos() {
+            this.todos = await apiTodos.index()
+        },
+        async createTodo(){
+            const data = await apiTodos.store(this.form)
+            this.todos.push(data)
 
+            this.form.text = ''
+            this.form.done = false
         }
-
     }
+
 })
 app.mount('#app')
