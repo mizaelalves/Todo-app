@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "css-loader": "^5.2.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "3",
+    "resolve-url": "0.2.1",
+    "urix": "0.1.0",
+    "vue": "^3.0.11"
+  }
+}
