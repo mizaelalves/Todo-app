@@ -32,10 +32,13 @@ const app = createApp({
             this.form.text = ''
             this.form.done = false
         },
+
+        
+
         async toggleTodoStatus(todo) {
             const data = await apiTodos.update({
                 ...todo,
-                done: !todo.done,
+                done: !todo.done
             })
 
 
@@ -44,6 +47,12 @@ const app = createApp({
             }) => id === data.id)
             this.todos[index] = data
         },
+        async destroy(id){
+            await apiTodos.destroy({id})
+            
+            const index = this.todos.findIndex((todo) => todo.id === id)
+            this.todos.splice(index, 1)
+        }
     },
 })
 app.mount('#app')
