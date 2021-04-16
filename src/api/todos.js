@@ -14,7 +14,7 @@ export default class Todos {
     return data;
   }
   async update({ id, text, done }) {
-    const { data } = await axios.put('/todos/${id}', {
+    const { data } = await axios.put(`/todos/${id}`, {
       id,
       text,
       done,
@@ -22,6 +22,6 @@ export default class Todos {
     return data;
   }
   async destroy({ id }){
-    await axios.delete('/todos/${id}')
+    await axios.delete(`/todos/${id}`)
   }
 }

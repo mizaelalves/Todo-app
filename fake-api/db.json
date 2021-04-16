@@ -3,7 +3,7 @@
     {
       "id": 1,
       "text": "lava as roupas",
-      "done": true
+      "done": false
     },
     {
       "id": 2,
@@ -13,27 +13,32 @@
     {
       "id": 3,
       "text": "estender a roupa",
-      "done": true
+      "done": false
     },
     {
       "id": 4,
       "text": "entudas",
-      "done": true
+      "done": false
     },
     {
+      "id": 5,
       "text": "!bora?",
-      "done": false,
-      "id": 5
+      "done": false
     },
     {
+      "id": 6,
       "text": "cortar",
-      "done": false,
-      "id": 6
+      "done": false
     },
     {
+      "id": 7,
       "text": "cortar",
-      "done": true,
-      "id": 7
+      "done": false
+    },
+    {
+      "id": 8,
+      "text": "asf",
+      "done": false
     }
   ]
 }
