@@ -4,6 +4,6 @@
 	🚧  To do 🚀 Em construção...  🚧
 </h4>
 <h2>npm start<h2>
-<p>Para instalar a dependencias<p>
+<h4>Para instalar a dependencias<h4>
  <h2>npm run dev<h2>
-<p>Para iniciar o servidor da aplicação<p>
+<h4>Para iniciar o servidor da aplicação<h4>
