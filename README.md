@@ -3,7 +3,13 @@
 <h4 align="center"> 
 	🚧  To do 🚀 Em construção...  🚧
 </h4>
-<h2>npm start<h2>
-<h4>Para instalar a dependencias<h4>
- <h2>npm run dev<h2>
-<h4>Para iniciar o servidor da aplicação<h4>
+<h2>
+	npm start
+	<h4>Para instalar a dependencias<h4>
+<h2>
+
+<h2>
+	npm run dev
+	<h4>Para iniciar o servidor da aplicação<h4>
+<h2>
+
