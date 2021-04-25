@@ -6,17 +6,21 @@ body {
 
 #app {
   margin: 4% auto auto auto;
-  padding: 50px;
+  padding: 45px 50px 50px 50px;
   grid-template-columns: minmax(0px, 400px);
   grid-gap: 20px 50px;
-  text-align: center;
   background-color: #18243c;
   border-radius: 20px;
   display: grid;
   width: 400px;
   height: 50%;
 }
-
+p{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 form {
   display: grid;
   grid-gap: 1.5rem;
