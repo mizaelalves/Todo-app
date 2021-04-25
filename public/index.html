@@ -12,7 +12,7 @@
     <div id="app">
 
       <form @submit.prevent="createTodo()">
-        <input type="text" placeholder="Todo" v-model="form.text"/>
+        <input type="text" placeholder="Todo" v-model="form.text" required />
 
         <label class="checkbox-input">
           {{ form.done ? 'Concluida' : 'Não concluida'}}
