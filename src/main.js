@@ -14,6 +14,7 @@ const app = createApp({
                 text: '',
                 done: false
             }
+            
         }
     },
 

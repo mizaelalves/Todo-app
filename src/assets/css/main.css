@@ -1,7 +1,8 @@
 body {
-  background-color: #1D3E54 ;
-  font-family: 'Montserrat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  background-color: #1d3e54;
+  font-family: "Montserrat", "Avenir", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 #app {
@@ -15,7 +16,8 @@ body {
   width: 400px;
   height: 50%;
 }
-p{
+
+p {
   color: white;
   font-size: 30px;
   margin-bottom: 0;
@@ -43,7 +45,7 @@ form input::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-form button[type='submit'] {
+form button[type="submit"] {
   background-color: #2d6cea;
   padding: 0.5rem 1rem;
   color: #ececf6;
@@ -61,7 +63,7 @@ form button[type='submit'] {
   transition: all 0.2s linear;
 }
 
-form button[type='submit']:hover {
+form button[type="submit"]:hover {
   background-color: #1b5cdc;
 }
 
@@ -69,8 +71,8 @@ form .checkbox-input {
   margin-left: 0.5rem;
 }
 
-form button[type='submit']:after {
-  content: '+';
+form button[type="submit"]:after {
+  content: "+";
   position: absolute;
   right: 1.2rem;
   font-size: 20px;
@@ -118,7 +120,7 @@ form button[type='submit']:after {
 
 .todo .todo-delete:before,
 .todo .todo-delete:after {
-  content: '';
+  content: "";
   width: 3px;
   height: 13px;
   background-color: #ececf6;
@@ -182,7 +184,7 @@ form button[type='submit']:after {
 }
 
 .checkmark:after {
-  content: '';
+  content: "";
   position: absolute;
   display: none;
 }
