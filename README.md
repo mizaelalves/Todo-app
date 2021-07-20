@@ -5,6 +5,10 @@
 	🚧  To do 🚀 Em construção...  🚧
 	<p>https://loving-bassi-1e652d.netlify.app</p>
 </h4>
+<h4 align="center"> 
+	This app comunicates to this API https://fakeapi-json-server.herokuapp.com/todos<br>
+	<a href="https://github.com/mizaelalves/fake-api">Click here to go to the fake-api</a>
+</h4>
 <a href="https://ibb.co/YTKvmTZ"><img src="https://i.ibb.co/tPNygPX/4.png" alt="4" border="0" width="300px"></a>
 <h2>
 	npm start
